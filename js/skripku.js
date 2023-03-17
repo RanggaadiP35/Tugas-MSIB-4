@@ -1,12 +1,12 @@
 function cekLogin() {
     //tangkap request form
     let form = window.document.getElementById("formulir");
-    let uname = form.username.value;
+    let name = form.username.value;
     let pwd = form.password.value;
-    if (uname == "mimin" && pwd == "mimin123") {
-        alert("Selamat Datang " + uname + ", Anda administrator");
-    } else if (uname == "budi" && pwd == "budi123") {
-        alert("Selamat Datang " + uname + ", Anda operator");
+    if (name == "mimin" && pwd == "mimin123") {
+        alert("Selamat Datang " + name + ", Anda administrator");
+    } else if (name == "budi" && pwd == "budi123") {
+        alert("Selamat Datang " + name + ", Anda operator");
     } else {
         alert("Maaf Anda Gagal Login");
     }
